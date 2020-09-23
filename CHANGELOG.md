@@ -1,7 +1,7 @@
 
 # Changelog
 
-## 4.0.18 (25/SEPT/2020)
+## 4.0.18 (25/SEP/2020)
 * Added api to report Screen Resolution.
 * Added api to report Dropped frames.
 
