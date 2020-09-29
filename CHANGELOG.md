@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.0.19 (25/SEP/2020)
+* Added Constants.APPLICATION_VERSION for reporting the application version.
+* Fixed few null checks in corner cases.
+
 ## 4.0.18 (25/SEP/2020)
 * Added api to report Screen Resolution.
 * Added api to report Dropped frames.
