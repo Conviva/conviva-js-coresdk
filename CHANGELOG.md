@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.1.2 (30/DEC/2020)
+* Introduces new minification logic to reduce the Conviva JavaScript SDK to ~105KB. From this release onwards Conviva releases 2 SDK files - conviva-core-sdk.debug.js for the development with complete Conviva logs and conviva-core-sdk.js for the production environments with minimal Conviva logs. Few unused API’s are deprecated which were accounting to increase of size.
+* Introduces new versioning of Major.Minor.Patch<b>L</b>(Eg.. 4.1.2<b>L</b>) for the legacy Conviva JavaScript SDK Integrations to be able to differentiate from the Simplified Integrations.
+
 ## 4.0.19 (25/SEP/2020)
 * Added Constants.APPLICATION_VERSION for reporting the application version.
 * Fixed few null checks in corner cases.
