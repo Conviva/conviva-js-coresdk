@@ -1,6 +1,9 @@
 
 # Changelog
 
+### 4.2.0 (30/MAR/2021)
+* Supports pooling of errors reported before playback starts and reports it after monitoring starts .
+
 ## 4.1.2 (30/DEC/2020)
 * Introduces new minification logic to reduce the Conviva JavaScript SDK to ~105KB. From this release onwards Conviva releases 2 SDK files - conviva-core-sdk.debug.js for the development with complete Conviva logs and conviva-core-sdk.js for the production environments with minimal Conviva logs. Few unused API’s are deprecated which were accounting to increase of size.
 * Introduces new versioning of Major.Minor.Patch<b>L</b>(Eg.. 4.1.2<b>L</b>) for the legacy Conviva JavaScript SDK Integrations to be able to differentiate from the Simplified Integrations.
