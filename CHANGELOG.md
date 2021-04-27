@@ -1,6 +1,9 @@
 
 # Changelog
 
+### 4.2.1 (27/APR/2021)
+* Fixes the issue of ignoring the content session errors during Ad Breaks
+
 ### 4.2.0 (30/MAR/2021)
 * Supports pooling of errors reported before playback starts and reports it after monitoring starts .
 
