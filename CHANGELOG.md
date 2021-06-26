@@ -1,6 +1,11 @@
 
 # Changelog
 
+### 4.2.6 (28/JUN/2021)
+* Fixes the issue of compatibility with the Google DAI Ad Module after the size reduction due to minification.
+* Fixes the ignoring of PauseJoin when false play state is reported prior to Preroll Ad impacting VST metric.
+* Fixes the issue of dropped frames count from earlier session reported to current session when VideoAnalytics.release() is not invoked.
+
 ### 4.2.1 (27/APR/2021)
 * Fixes the issue of ignoring the content session errors during Ad Breaks
 
