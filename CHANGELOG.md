@@ -1,15 +1,18 @@
 
 # Changelog
 
-### 4.2.6 (28/JUN/2021)
+## 4.4.1 (23/SEP/2021)
+* Autocollects UTM parameters from the URL.
+
+## 4.2.6 (28/JUN/2021)
 * Fixes the issue of compatibility with the Google DAI Ad Module after the size reduction due to minification.
 * Fixes the ignoring of PauseJoin when false play state is reported prior to Preroll Ad impacting VST metric.
 * Fixes the issue of dropped frames count from earlier session reported to current session when VideoAnalytics.release() is not invoked.
 
-### 4.2.1 (27/APR/2021)
+## 4.2.1 (27/APR/2021)
 * Fixes the issue of ignoring the content session errors during Ad Breaks
 
-### 4.2.0 (30/MAR/2021)
+## 4.2.0 (30/MAR/2021)
 * Supports pooling of errors reported before playback starts and reports it after monitoring starts .
 
 ## 4.1.2 (30/DEC/2020)
