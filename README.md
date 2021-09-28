@@ -8,6 +8,8 @@ The Conviva JavaScript Core Sdk is shared as offline library and should be inclu
 <script type="text/javascript" src="<PATH>/conviva-core-sdk.js"></script>
 ```
 ## Npm Installation
+```
 npm install @convivainc/conviva-core-sdk --save
+```
 ## Note:
 * Refer https://community.conviva.com/ for integration guidelines.
