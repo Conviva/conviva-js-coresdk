@@ -1,0 +1,15 @@
+{
+  "name": "@convivainc/conviva-js-coresdk",
+  "version": "4.4.1",
+  "description": "Conviva js core-sdk",
+  "main": "conviva-core-sdk.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conviva/conviva-js-coresdk.git"
+  },
+  "author": "ConvivaInc",
+  "bugs": {
+    "url": "https://github.com/Conviva/conviva-js-coresdk/issues"
+  },
+  "homepage": "https://github.com/Conviva/conviva-js-coresdk#readme"
+}
