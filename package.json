@@ -1,5 +1,5 @@
 {
-  "name": "@convivainc/conviva-js-coresdk",
+  "name": "@convivainc/conviva-core-sdk",
   "version": "4.4.1",
   "description": "Conviva js core-sdk",
   "main": "conviva-core-sdk.js",
