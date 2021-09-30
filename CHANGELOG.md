@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.4.3 (30/SEP/2021)
+* Added npm Support.
+
 ## 4.4.1 (23/SEP/2021)
 * Autocollects UTM parameters from the URL.
 

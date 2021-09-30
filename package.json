@@ -1,6 +1,6 @@
 {
-  "name": "@convivainc/conviva-core-sdk",
-  "version": "4.4.1",
+  "name": "@convivainc/conviva-js-coresdk",
+  "version": "4.4.3",
   "description": "Conviva js core-sdk",
   "main": "conviva-core-sdk.js",
   "repository": {
