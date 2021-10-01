@@ -8,6 +8,7 @@
     "url": "git+https://github.com/Conviva/conviva-js-coresdk.git"
   },
   "author": "Conviva Inc",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Conviva/conviva-js-coresdk/issues"
   },
