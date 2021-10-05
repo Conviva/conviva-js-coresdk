@@ -12,6 +12,11 @@ The Conviva JavaScript Core Sdk is shared as offline library and should be inclu
 ```
 npm install @convivainc/conviva-js-coresdk --save
 ```
+## Install via yarn
+
+```
+yarn add @convivainc/conviva-js-coresdk
+```
 
 ## Note:
 * Refer https://community.conviva.com/ for integration guidelines.
