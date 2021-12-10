@@ -1,6 +1,11 @@
 
 # Changelog
 
+## 4.5.1 (10/DEC/2021)
+* Introduces new API VideoAnalytics.setAdAnalytics() for the delegation of SSAI Ad Metrics from Video Analytics to Ad Analytics instance
+* Fixes the issue with missing null check of the canvas.getContext() for the applications with content type application/xhtml+xml
+* Fixes the issue with releasing of Conviva Modules if VideoAnalytics.release() is invoked without VideoAnalytics.reportPlaybackRequested()
+
 ## 4.4.3 (30/SEP/2021)
 * Added npm and yarn Support.
 
