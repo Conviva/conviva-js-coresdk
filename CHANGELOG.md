@@ -2,8 +2,7 @@
 # Changelog
 
 ## 4.5.4 (21/DEC/2021)
-* Supports WebMAF SDK 2.8.1
-* Accepts adType attribute to ad break events - PodStart & PodEnd
+* Fixes auto collection of CDN Server IP for devices(such as WebMAF) where XMLHttpRequest is of type "Object"
 
 ## 4.5.1 (10/DEC/2021)
 * Introduces new API VideoAnalytics.setAdAnalytics() for the delegation of SSAI Ad Metrics from Video Analytics to Ad Analytics instance
