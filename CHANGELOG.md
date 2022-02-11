@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.5.6 (11/FEB/2022)
+* Internal code enhancements
+
 ## 4.5.4 (21/DEC/2021)
 * Supports WebMAF SDK 2.8.1
 * Accepts adType attribute to ad break events - PodStart & PodEnd
