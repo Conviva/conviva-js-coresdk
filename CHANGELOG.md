@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.5.6 (11/FEB/2022)
+* Internal code enhancements
+
 ## 4.5.4 (21/DEC/2021)
 * Fixes auto collection of CDN Server IP for devices(such as WebMAF) where XMLHttpRequest is of type "Object"
 
