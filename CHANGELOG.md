@@ -1,7 +1,7 @@
 
 # Changelog
 
-## 4.5.6 (11/FEB/2022)
+## 4.5.7 (11/FEB/2022)
 * Internal code enhancements
 
 ## 4.5.4 (21/DEC/2021)
