@@ -1,5 +1,7 @@
 
 # Changelog
+## 4.5.8 (07/JUNE/2022)
+* Performance improvements for logging data using Conviva APIs on Youview Devices
 
 ## 4.5.7 (11/FEB/2022)
 * Internal code enhancements
