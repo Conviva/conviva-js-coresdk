@@ -1,5 +1,8 @@
 
 # Changelog
+## 4.5.10 (Pre-release) (11/NOV/2022)
+* Hides CUSTOMER_KEY from Conviva gatewayURLs when a custom gatewayURL is set for both test and production accounts.
+
 ## 4.5.8 (07/JUNE/2022)
 * Performance improvements for logging data using Conviva APIs on Youview Devices
 
