@@ -1,6 +1,9 @@
 
 # Changelog
-## 4.5.10 (Pre-release) (11/NOV/2022)
+## 4.5.13 (27/DEC/2022)
+* Supports broadcasting video events to Conviva App Insights SDKs to consume. For non App Insights users, there is no impact.
+
+## 4.5.10 (11/NOV/2022)
 * Hides CUSTOMER_KEY from Conviva gatewayURLs when a custom gatewayURL is set for both test and production accounts.
 
 ## 4.5.8 (07/JUNE/2022)
