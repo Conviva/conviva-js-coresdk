@@ -6,6 +6,12 @@
 ## 4.5.10 (11/NOV/2022)
 * Hides CUSTOMER_KEY from Conviva gatewayURLs when a custom gatewayURL is set for both test and production accounts.
 
+## 4.5.9 (18/FEB/2023)
+* Hotfix on top of 4.5.8
+*	Enhances collection by sending urgent heartbeats on following events:
+    *	First PLAYING state
+    * FATAL/WARNING Errors
+
 ## 4.5.8 (07/JUNE/2022)
 * Performance improvements for logging data using Conviva APIs on Youview Devices
 
