@@ -44,6 +44,7 @@ declare enum ConvivaKeys {
 
     // Playback
     BITRATE = 'BITRATE',
+    AVG_BITRATE = 'AVG_BITRATE',
     BUFFER_LENGTH = 'BUFFER_LENGTH',
     CDN_IP = 'CDN_IP',
     PLAYER_STATE = 'PLAYER_STATE',
@@ -407,6 +408,7 @@ export interface ConvivaConstants {
     POD_POSITION: ConvivaKeys.POD_POSITION;
     Playback: {
         BITRATE: 'BITRATE';
+        AVG_BITRATE: 'AVG_BITRATE';
         PLAY_HEAD_TIME: 'PLAY_HEAD_TIME';
         RESOLUTION: 'RESOLUTION';
         BUFFER_LENGTH: 'BUFFER_LENGTH';

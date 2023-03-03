@@ -1,5 +1,9 @@
 
 # Changelog
+## 4.6.1 (3/MAR/2023)
+* Added api to report Average bitrate.
+* Fixes crash issue in playlist scenarios when switching to next video.
+
 ## 4.5.13 (27/DEC/2022)
 * Supports broadcasting video events to Conviva App Insights SDKs to consume. For non App Insights users, there is no impact.
 
