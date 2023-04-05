@@ -1,5 +1,9 @@
 
 # Changelog
+## 4.7.0 (5/APR/2023)
+* Added Api to report Audio language, Subtitle Language and Closed Caption Language .
+* Fixes crash issue in react native
+
 ## 4.6.1 (3/MAR/2023)
 * Added api to report Average bitrate.
 * Fixes crash issue in playlist scenarios when switching to next video.
