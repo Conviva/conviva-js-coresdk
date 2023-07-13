@@ -1,5 +1,8 @@
 
 # Changelog
+## 4.7.2 (12/JUL/2023)
+* Fixes the issue of reporting the ad duration on the content session, when same player instance is used for both ad and content.
+
 ## 4.7.1 (19/APR/2023)
 * Fixes crash issue in react native app
 
