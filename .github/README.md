@@ -19,4 +19,4 @@ yarn add @convivainc/conviva-js-coresdk
 ```
 
 ## Note:
-* Refer https://pulse.conviva.com/learning-center/content/sensor_developer_center/sensor_integration/javascript/javascript_stream_sensor.htm for integration guidelines.
+* Refer [Learning Center](https://pulse.conviva.com/learning-center/content/sensor_developer_center/sensor_integration/javascript/javascript_stream_sensor.htm) for integration guidelines.
