@@ -2,8 +2,8 @@
 # Changelog
 
 ## 4.7.4 (24/JAN/2024)
-* Includes stability changes.
-* Fixes an issue in reporting of Video attempt event and session end event.
+* Includes code stability changes.
+* Fixes an issue that causes multiple console errors while publishing of Video attempt event and session end event.
 
 ## 4.7.2 (12/JUL/2023)
 * Fixes the issue of reporting the ad duration on the content session, when same player instance is used for both ad and content.
