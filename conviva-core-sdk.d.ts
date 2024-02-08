@@ -179,7 +179,10 @@ export interface ConvivaAdListenerInfo {
     [ConvivaKeys.IMASDK_CONTENT_PLAYER]: object;
 }
 
-export type ConvivaMetadata = {
+export type ConvivaMetadata = { 
+    // Custom tags 
+    [key: string]: string | number 
+} & { 
     [ConvivaKeys.IS_LIVE]?:
         | ConvivaConstants['StreamType']['LIVE']
         | ConvivaConstants['StreamType']['UNKNOWN']
@@ -191,7 +194,7 @@ export type ConvivaMetadata = {
     [ConvivaKeys.ENCODED_FRAMERATE]?: number | null;
     [ConvivaKeys.VIEWER_ID]?: string | null;
     [ConvivaKeys.DEFAULT_RESOURCE]?: string | null;
-} & { [key: string]: string }; // Custom tags
+}
 
 export interface VideoAnalytics {
     configureExistingSession(sessionKey: string): void;
