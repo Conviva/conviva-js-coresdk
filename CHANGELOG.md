@@ -2,7 +2,7 @@
 # Changelog
 
 ## 4.7.5 (15/APR/2024)
-* Fixes application crash in non-browser enviormnet
+* Fixes application crash in non-browser environment
 
 ## 4.7.4 (24/JAN/2024)
 * Includes code stability changes.
