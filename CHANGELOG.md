@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.7.5 (15/APR/2024)
+* Fixes application crash in non-browser enviormnet
+
 ## 4.7.4 (24/JAN/2024)
 * Includes code stability changes.
 * Fixes an issue that causes multiple console errors while publishing of Video attempt event and session end event.
