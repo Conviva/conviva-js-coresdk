@@ -164,7 +164,9 @@ export interface ConvivaPlayerInfo {
 }
 
 export interface ConvivaPlayerExtraListeners {
-    [ConvivaKeys.MEDIA_ELEMENT]: object;
+    [Constants.MEDIA_ELEMENT]?: object;
+    [Constants.CONVIVA_MODULE]?: object;
+    [Constants.CONVIVA_AD_MODULE]?: object;
 }
 
 export interface ConvivaAdBreakInfo {
