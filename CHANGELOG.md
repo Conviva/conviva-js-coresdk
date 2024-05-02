@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.7.6 (2/MAY/2024)
+* Fixes issue of tslint error while setting options in setPlayer api.
+
 ## 4.7.5 (15/APR/2024)
 * Fixes application crash in non-browser environment
 
