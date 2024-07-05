@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.7.7 (5/JUL/2024)
+* Fixes issue of Conviva Core Ver version mismatch reported in cws protocol heartbeat in the 4.7.6 build .
+
 ## 4.7.6 (2/MAY/2024)
 * Fixes issue of tslint error while setting options in setPlayer api.
 
