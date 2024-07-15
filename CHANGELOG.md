@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.7.8 (15/JUL/2024)
+* clientId is generated on sensor to avoid race conditions where client Id is not retained across sessions. Fixes issuewhere this race condition causesVSF to be reported as EBVS .
+
 ## 4.7.7 (5/JUL/2024)
 * Fixes issue of Conviva Core Ver version mismatch reported in cws protocol heartbeat in the 4.7.6 build .
 
