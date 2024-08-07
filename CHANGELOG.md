@@ -1,6 +1,10 @@
 
 # Changelog
 
+## 4.7.9 (7/AUG/2024)
+* Introduces a new device category called LINUX and 2 new device type called VEHICLE and OTHER.
+* Fixes issue of broadcasting multiple video end events to Conviva App Insights SDKs to consume. For non App Insights users, there is no impact.
+
 ## 4.7.8 (15/JUL/2024)
 * clientId is generated on sensor to avoid race conditions where client Id is not retained across sessions. Fixes issuewhere this race condition causesVSF to be reported as EBVS .
 
