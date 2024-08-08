@@ -88,6 +88,7 @@ declare enum ConvivaKeys {
     CAT_WEB = 'WEB',
     CAT_WINDOWS_DEVICE = 'WIN',
     CAT_XBOX = 'XB',
+    CAT_LINUX = 'LNX',
 
     // Device Metadata Keys
     META_BRAND = 'DeviceBrand',
@@ -106,6 +107,8 @@ declare enum ConvivaKeys {
     TYPE_SETTOP = 'Settop',
     TYPE_SMARTTV = 'SmartTV',
     TYPE_TABLET = 'Tablet',
+    TYPE_VEHICLE = 'Vehicle',
+    TYPE_OTHER = 'Other',
 
     // setAdListener info
     AD_PRELOAD_FEATURE = 'adPreloading',
@@ -317,6 +320,7 @@ export interface ConvivaConstants {
         WEB: ConvivaKeys.CAT_WEB;
         WINDOWS_DEVICE: ConvivaKeys.CAT_WINDOWS_DEVICE;
         XBOX: ConvivaKeys.CAT_XBOX;
+        LINUX: ConvivaKeys.CAT_LINUX;
     };
     DeviceMetadata: {
         BRAND: ConvivaKeys.META_BRAND;
@@ -338,6 +342,8 @@ export interface ConvivaConstants {
         SETTOP: ConvivaKeys.TYPE_SETTOP;
         SMARTTV: ConvivaKeys.TYPE_SMARTTV;
         TABLET: ConvivaKeys.TYPE_TABLET;
+        VEHICLE: ConvivaKeys.TYPE_VEHICLE;
+        OTHER: ConvivaKeys.TYPE_OTHER;
     };
     ENCODED_FRAMERATE: ConvivaKeys.ENCODED_FRAMERATE;
     ErrorSeverity: {
