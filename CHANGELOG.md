@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.7.11 (30/SEP/2024)
+* Added required attributes in Video events broadcasted to Conviva App Insights SDKs to consume. For non App Insights users, there is no impact.
+
 ## 4.7.9 (7/AUG/2024)
 * Introduces a new device category called LINUX and 2 new device type called VEHICLE and OTHER.
 * Fixes issue of broadcasting multiple video end events to Conviva App Insights SDKs to consume. For non App Insights users, there is no impact.
