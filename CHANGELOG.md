@@ -1,6 +1,11 @@
 
 # Changelog
 
+## 4.7.12 (22/OCT/2024)
+*	Enhances collection by sending urgent heartbeats with a random jitter between 200ms - 5000ms, on following events:
+    * First PLAYING state for Content Sessions
+    * FATAL Errors for Content Sessions
+
 ## 4.7.11 (30/SEP/2024)
 * Added required attributes in Video events broadcasted to Conviva ECO Sensor SDKs to consume. For non ECO users, there is no impact.
 
