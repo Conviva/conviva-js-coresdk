@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.7.13 (06/FEB/2024)
+* Supports setting proxy URL as gatewayURL endpoint to bypass ad blockers blocking traffic to Conviva.
+
 ## 4.7.12 (22/OCT/2024)
 *	Enhances collection by sending urgent heartbeats with a random jitter between 200ms - 5000ms, on following events:
     * First PLAYING state for Content Sessions
