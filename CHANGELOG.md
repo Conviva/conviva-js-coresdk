@@ -1,6 +1,9 @@
 
 # Changelog
 
+## 4.7.14 (14/MAR/2024)
+* Added required checks for document & related APIs before using them.
+
 ## 4.7.13 (06/FEB/2024)
 * Supports setting proxy URL as gatewayURL endpoint to bypass ad blockers blocking traffic to Conviva.
 
