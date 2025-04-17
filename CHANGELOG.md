@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.7.17 (17/APR/2025)
+
+- Fixed type declaration for ConvivaMetadata to be compatible with latest Typescript checks.
+
 ## 4.7.16 (28/MAR/2025)
 
 - Internal updates and improvements.
