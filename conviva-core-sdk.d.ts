@@ -89,6 +89,7 @@ declare enum ConvivaKeys {
     CAT_WINDOWS_DEVICE = 'WIN',
     CAT_XBOX = 'XB',
     CAT_LINUX = 'LNX',
+    CAT_AMAZON = "AMZ",
 
     // Device Metadata Keys
     META_BRAND = 'DeviceBrand',
@@ -321,6 +322,7 @@ export interface ConvivaConstants {
         WINDOWS_DEVICE: ConvivaKeys.CAT_WINDOWS_DEVICE;
         XBOX: ConvivaKeys.CAT_XBOX;
         LINUX: ConvivaKeys.CAT_LINUX;
+        AMAZON: ConvivaKeys.CAT_AMAZON;
     };
     DeviceMetadata: {
         BRAND: ConvivaKeys.META_BRAND;

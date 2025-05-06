@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.7.18 (06/MAY/2025)
+
+- Suppots new device category for Amazon.
+
 ## 4.7.17 (17/APR/2025)
 
 - Fixed type declaration for ConvivaMetadata to be compatible with latest Typescript checks.
