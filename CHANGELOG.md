@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.8.0 (20/MAY/2025)
+
+- Fixes issue of ES5 compatibility.
+
 ## 4.7.18 (06/MAY/2025)
 
 - Suppots new device category for Amazon.
