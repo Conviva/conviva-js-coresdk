@@ -56,6 +56,8 @@ declare enum ConvivaKeys {
     AUDIO_LANGUAGE = 'AUDIO_LANGUAGE',
     SUBTITLES_LANGUAGE = 'SUBTITLES_LANGUAGE',
     CLOSED_CAPTIONS_LANGUAGE = 'CLOSED_CAPTIONS_LANGUAGE',
+    LIVE_LATENCY = 'LIVE_LATENCY',
+    IS_AT_LIVE_EDGE = 'IS_AT_LIVE_EDGE',
 
 
     // PlayerState
@@ -214,7 +216,8 @@ export interface VideoAnalytics {
     reportPlaybackFailed(errorMessage: string, contentInfo?: ConvivaMetadata): void;
     reportPlaybackMetric(
         metricKey: valueof<ConvivaConstants['Playback']>,
-        metricValue?: valueof<ConvivaConstants['PlayerState']> | number | string,
+        // boolean is here for IS_AT_LIVE_EDGE, the only key whose value is a flag rather than a measurement.
+        metricValue?: valueof<ConvivaConstants['PlayerState']> | number | string | boolean,
         metricValue2?: valueof<ConvivaConstants['PlayerState']> | number | string,
     ): void;
     reportPlaybackRequested(contentInfo?: ConvivaMetadata): void;
@@ -232,7 +235,7 @@ export interface AdAnalytics {
     reportAdLoaded(adInfo?: ConvivaMetadata): void;
     reportAdMetric(
         metricKey: valueof<ConvivaConstants['Playback']>,
-        metricValue?: valueof<ConvivaConstants['PlayerState']> | number | string,
+        metricValue?: valueof<ConvivaConstants['PlayerState']> | number | string | boolean,
         metricValue2?: valueof<ConvivaConstants['PlayerState']> | number | string,
     ): void;
     reportAdPlayerEvent(eventType: valueof<ConvivaConstants['Events']>, detail?: object): void;
@@ -436,6 +439,35 @@ export interface ConvivaConstants {
         AUDIO_LANGUAGE: 'AUDIO_LANGUAGE';
         SUBTITLES_LANGUAGE: 'SUBTITLES_LANGUAGE';
         CLOSED_CAPTIONS_LANGUAGE: 'CLOSED_CAPTIONS_LANGUAGE';
+        /**
+         * The viewer's latency behind the live edge, in milliseconds, computed and pushed by the
+         * application.
+         *
+         * Takes one argument: a positive integer. Zero is rejected - under the expected
+         * wall-clock-minus-programDateTime derivation, zero latency is not achievable, so a zero
+         * means the derivation is broken. Live content only; reporting it on VOD logs an error and
+         * emits nothing. Not stateful: every accepted call emits one sample, and reporting is
+         * stopped by not calling - there is no "off" call.
+         *
+         * Report it every 5 seconds whenever the number is valid, whatever the viewer is doing.
+         * It is not restricted to live-edge viewing and is never gated by IS_AT_LIVE_EDGE: a viewer ten
+         * minutes into the DVR window still reports latency. Use IS_AT_LIVE_EDGE to say where they are.
+         */
+        LIVE_LATENCY: 'LIVE_LATENCY';
+        /**
+         * Whether the viewer is tracking the live edge, by the application's own definition of the
+         * edge, as opposed to having deliberately time-shifted (DVR, start-over, scrub-back).
+         *
+         * Takes one argument: a boolean. Only true and false are accepted; 1, "true" and similar are
+         * discarded rather than coerced. Live content only; reporting it on VOD logs an error and
+         * emits nothing.
+         *
+         * Stateful, and so the mirror image of LIVE_LATENCY: the value is stored, only a change is
+         * emitted, and the current flag is restated on every heartbeat. The default is Unknown, which
+         * is not a reportable value - a session that never calls stays Unknown for its whole life,
+         * so report it once at session start and then on every transition.
+         */
+        IS_AT_LIVE_EDGE: 'IS_AT_LIVE_EDGE';
     };
     PlayerState: {
         BUFFERING: ConvivaKeys.BUFFERING;
