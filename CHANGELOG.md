@@ -1,6 +1,6 @@
 # Changelog
 
-## 4.8.0 (20/MAY/2025)
+## 4.9.0 (16/SEP/2026)
 
 ### Live Latency and Is At Live Edge (CWS 2.9)
 - Protocol version raised from 2.8 to 2.9.
